@@ -10,6 +10,15 @@ body {
     top: 80px;
     left: 100px;
 }
+/* ini header image 2 */
+#header2 {
+    position: absolute; 
+    z-index: 2;
+    height: 750px; 
+    width: auto;
+    top: 80px;
+    left: 100px;
+}
 /* ini kuning */
 .header2 {
     background-color: #e9a226;
@@ -29,5 +38,6 @@ body {
 /* ini tulisan header 1 */
 .header1 span {
     font-size: 100px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 100px;
 }
