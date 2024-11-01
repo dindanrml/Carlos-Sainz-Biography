@@ -84,21 +84,26 @@ body {
     margin-right: 50px;
 }
 
-/* .Background { */
+.header3 { 
+    background-color: #c90000;
+    width: 100%;
+    height: 100px;
+    position: relative; 
+    z-index: 1;
+}
+
+.Background {
     background-color: #c90000;
     width: 100%;
     height: 50px;
     position: relative; 
     z-index: 1;
     padding-top: 50px;
-    padding-bottom: 10px;
-/*  */
-.header3 {
-    background-color: #c90000;
-    width: 100%;
-    height: 50px;
-    position: relative; 
-    z-index: 1;
+    padding-bottom: 80px;
+}
+
+.font {
+    color: #393938;
 }
 
 .headerback {
@@ -108,3 +113,9 @@ body {
     position: relative; 
     z-index: 1;
 }
+
+.paragraphbackground {
+    font-family: 'Helvetica Neue ME Bold';
+    color: #393938;
+}
+    
