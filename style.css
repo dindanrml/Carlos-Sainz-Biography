@@ -18,7 +18,7 @@ body {
 
 /* Header Section */
     #logoheader {  
-        height: 125px ; 
+        height: 50px ; 
         width: auto ;
         margin: 0 ;
     }
@@ -81,7 +81,7 @@ body {
     .biography-font {
         font-family: 'Tempel Grotesk';
         font-style: italic ;
-        font-size: 50px;
+        font-size: 40px;
         letter-spacing: 1px;
         color: #D62828 ;
     }
@@ -89,7 +89,7 @@ body {
     .biography-par {
         font-family: 'Helvetica Neue ME Bold';
         font-style: italic ;
-        font-size: 30px ;
+        font-size: 20px ;
         color: white ;
 
     }
@@ -98,7 +98,7 @@ body {
     .career-font {
         font-family: 'Tempel Grotesk';
         font-style: italic ;
-        font-size: 50px ;
+        font-size: 40px ;
         letter-spacing: 1px;
         color: #D62828 ;
         
@@ -112,14 +112,19 @@ body {
 
     .careerteam {
         color: #F77F00 ;
-        font-size: 30px ;
+        font-size: 20px ;
+    }
+
+    .careeryear {
+        color: white ;
+        font-size: 25px;
     }
 
 /* Achievement Section */
     .achievement-font {
         font-family: 'Tempel Grotesk' ;
         font-style: italic ;
-        font-size: 50px ;
+        font-size: 40px ;
         letter-spacing: 1px;
         color:#D62828 ;
     }
@@ -131,6 +136,30 @@ body {
     }
 
     .achvyear {
-        font-size: 30px;
+        font-size: 25px;
         color: #F77F00 ;
+    }
+
+    .achvpodium {
+        font-size: 20px;
+    }
+
+  /* Image Section */
+    .image {
+        width: 500px ;
+        padding: 10, 10, 10;
+    }
+
+    .imagebig {
+        width: 100% ;
+        height: auto ; 
+    }
+
+/* About Section */
+    .about-font {
+        font-family: 'Tempel Grotesk' ;
+        font-style: italic ;
+        font-size: 40px ;
+        letter-spacing: 1px;
+        color:#D62828 ;
     }
