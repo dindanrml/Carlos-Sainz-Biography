@@ -1,7 +1,7 @@
 body {
-    background-color:#393938 ;
+    background-color:#003049 ;
     width: auto ;
-    height: 1000px ;
+    height: auto;
 }
 
 @font-face {
@@ -17,20 +17,36 @@ body {
 }
 
 /* Header Section */
-    #logoheader {
-        position: absolute  ; 
-        z-index: 1 ;
+    #logoheader {  
         height: 125px ; 
         width: auto ;
-        padding-top: 20px ;
         margin: 0 ;
     }
 
+    header {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 2.25rem;
+        padding-top: 2.25rem;
+    }
+    
+    nav>ul {
+        display: flex;
+        margin: 0;
+        list-style: none;
+        gap: 100px;
+    }
+
+    nav>li { 
+        display: flex ;
+        justify-content: center ;
+
+    }
+    
     .menu {
-        display: inline-flex ;
-        flex-direction: row ;
-        justify-content: space-between ;
-        align-items: center ;
         font-family: 'Tempel Grotesk' ;
         font-style: italic ;
         padding-top: 50px ;
@@ -42,41 +58,50 @@ body {
     .mainsection {
         font-family: 'Tempel Grotesk';
         font-style: italic ;
-        padding: 150px ;
         padding-left: 100px ;
     }
 
     .carlos {
-        color: #c90000 ;
-        font size: 100pt ;
+        color: #D62828 ;
+        font-size: 50pt ;
+        letter-spacing: 3px;
     }
 
-    .F1 {
+    .f1 {
         color: white ;
+        font-size: 20pt;
+        letter-spacing: 1px;
     }
 
     .carlosimage {
-        width: 700px ;
+        width: 500px ;
     }
 
 /* Biography Section */
     .biography-font {
         font-family: 'Tempel Grotesk';
         font-style: italic ;
-        color: #c90000 ;
+        font-size: 50px;
+        letter-spacing: 1px;
+        color: #D62828 ;
     }
 
     .biography-par {
         font-family: 'Helvetica Neue ME Bold';
         font-style: italic ;
+        font-size: 30px ;
         color: white ;
+
     }
 
 /* Career Section */
     .career-font {
         font-family: 'Tempel Grotesk';
         font-style: italic ;
-        color: #c90000 ;
+        font-size: 50px ;
+        letter-spacing: 1px;
+        color: #D62828 ;
+        
     }
 
     .career-par {
@@ -86,14 +111,17 @@ body {
     }
 
     .careerteam {
-        color: #eed73f;
+        color: #F77F00 ;
+        font-size: 30px ;
     }
 
 /* Achievement Section */
     .achievement-font {
         font-family: 'Tempel Grotesk' ;
         font-style: italic ;
-        color:#c90000 ;
+        font-size: 50px ;
+        letter-spacing: 1px;
+        color:#D62828 ;
     }
 
     .achievement-par {
@@ -103,5 +131,6 @@ body {
     }
 
     .achvyear {
-        color: #eed73f ;
+        font-size: 30px;
+        color: #F77F00 ;
     }
