@@ -1,50 +1,7 @@
 body {
-    margin: 0;
-}
-/* ini header atas */
-#headerimage {
-    position: absolute; 
-    z-index: 2;
-    height: 700px; 
-    width: auto;
-    top: 80px;
-    left: 100px;
-}
-/* ini header image 2 */
-#header2 {
-    position: absolute; 
-    z-index: 2;
-    height: 750px;
-    width: auto;
-    top: 80px;
-    left: 100px;
-}
-/* ini kuning */
-.header2 {
-    background-color: #e9a226;
-    width: 100%;
-    height: 315px;
-    position: relative; 
-    z-index: 1; 
-}
-/* ini merah */
-.header1 {
-    background-color: #c90000;
-    width: 100%;
-    height: 415px;
-    position: relative; 
-    z-index: 1; 
-    padding-top: 50px;
-}
-/* ini tulisan header 1 */
-.header1 span {
-    font-size: 100px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#headerimage2 {
-    width: 250px;
-    left: 200px;
+    background-color:#393938 ;
+    width: auto ;
+    height: 1000px ;
 }
 
 @font-face {
@@ -59,77 +16,92 @@ body {
     src: url('fonts/Helvetica\ Neue\ ME\ Bold.ttf') format('.ttf');
 }
 
+/* Header Section */
+    #logoheader {
+        position: absolute  ; 
+        z-index: 1 ;
+        height: 125px ; 
+        width: auto ;
+        padding-top: 20px ;
+        margin: 0 ;
+    }
 
-body {
-    font-family: 'Tempel Grotesk', sans-serif;
-}
+    .menu {
+        display: inline-flex ;
+        flex-direction: row ;
+        justify-content: space-between ;
+        align-items: center ;
+        font-family: 'Tempel Grotesk' ;
+        font-style: italic ;
+        padding-top: 50px ;
+        color: white ;
+        letter-spacing: 1px ;
+    }
 
+/* Main Section */
+    .mainsection {
+        font-family: 'Tempel Grotesk';
+        font-style: italic ;
+        padding: 150px ;
+        padding-left: 100px ;
+    }
 
-.title {
-    font-size: 80pt;
-    color: #393938;
-    letter-spacing: 5px;
-    text-align: center;
-}
+    .carlos {
+        color: #c90000 ;
+        font size: 100pt ;
+    }
 
-.caption {
-    display: flex;
-    justify-content: space-between;
-    font-size: 36pt;
-    font-family: 'Helvetica Neue Me Bold';
-    color: #393938;
-}
-.grup-title {
-    margin-left: 50px;
-    margin-right: 50px;
-}
+    .F1 {
+        color: white ;
+    }
 
-.header3 { 
-    background-color: #c90000;
-    width: 100%;
-    height: 100px;
-    position: relative; 
-    z-index: 1;
-}
+    .carlosimage {
+        width: 700px ;
+    }
 
-.Background {
-    background-color: #c90000;
-    width: 100%;
-    height: 50px;
-    position: relative; 
-    z-index: 1;
-    padding-top: 50px;
-    padding-bottom: 80px;
-}
+/* Biography Section */
+    .biography-font {
+        font-family: 'Tempel Grotesk';
+        font-style: italic ;
+        color: #c90000 ;
+    }
 
-.font {
-    color: #393938;
-}
+    .biography-par {
+        font-family: 'Helvetica Neue ME Bold';
+        font-style: italic ;
+        color: white ;
+    }
 
-.headerback {
-    background-color: #e9a226;
-    width: 100%;
-    height: 5000px;
-    position: relative; 
-    z-index: 1;
-}
+/* Career Section */
+    .career-font {
+        font-family: 'Tempel Grotesk';
+        font-style: italic ;
+        color: #c90000 ;
+    }
 
-.paragraphbackground {
-    font-family: 'Helvetica Neue ME Bold';
-    color: #393938;
-}
+    .career-par {
+        font-family: 'Helvetica Neue ME Bold' ;
+        font-style: italic ;
+        color: white ;
+    }
 
-.careerparagraph {
-    font-family: 'Helvetica Neue ME Bold';
-    color: #393938;
-}
+    .careerteam {
+        color: #eed73f;
+    }
 
-.earlycareercontent {
-    font-family: 'Helvetica Neue ME Bold';
-    color: #393938;
-}
+/* Achievement Section */
+    .achievement-font {
+        font-family: 'Tempel Grotesk' ;
+        font-style: italic ;
+        color:#c90000 ;
+    }
 
-.formulacareercontent {
-    font-family: 'Helvetica Neue ME Bold';
-    color: #393938;
-}
+    .achievement-par {
+        font-family: 'Helvetica Neue ME Bold';
+        font-style: italic ;
+        color: white ;
+    }
+
+    .achvyear {
+        color: #eed73f ;
+    }
