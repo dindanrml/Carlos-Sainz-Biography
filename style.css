@@ -26,11 +26,12 @@ body {
     header {
         color: white;
         display: flex;
+        align-items: flex-start;
         justify-content: space-between;
         padding-left: 3rem;
         padding-right: 3rem;
-        padding-bottom: 2.25rem;
-        padding-top: 2.25rem;
+        padding-bottom: 2.50rem;
+        padding-top: 2.50rem;
     }
     
     nav>ul {
@@ -43,6 +44,7 @@ body {
     nav>li { 
         display: flex ;
         justify-content: center ;
+        padding-top: 10px ;
 
     }
     
@@ -144,15 +146,17 @@ body {
         font-size: 20px;
     }
 
-  /* Image Section */
-    .image {
-        width: 500px ;
-        padding: 10, 10, 10;
+/* Image Section */
+    .container {
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px ;
     }
 
-    .imagebig {
-        width: 100% ;
-        height: auto ; 
+    .container img {
+        width: 700px ;
+        height: auto ;
     }
 
 /* About Section */
@@ -162,4 +166,17 @@ body {
         font-size: 40px ;
         letter-spacing: 1px;
         color:#D62828 ;
+    }
+
+    .about-media {
+        font-family: 'Helvetica Neue ME Bold';
+        font-size: 25px ;
+        color: white;
+
+    }
+
+    .about-content {
+        font-family: 'Helvetica Neue ME Bold';
+        font-size: 20px ;
+        color: #FCBF49 ;
     }
