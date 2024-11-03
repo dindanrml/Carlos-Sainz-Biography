@@ -20,7 +20,8 @@ body {
     #logoheader {  
         height: 50px ; 
         width: auto ;
-        margin: 0 ;
+        margin-top: -15px ;
+        margin-right: 15px;
     }
 
     header {
@@ -183,4 +184,9 @@ body {
         font-family: 'Helvetica Neue ME Bold';
         font-size: 20px ;
         color: #FCBF49 ;
+    }
+
+    a {
+        text-decoration: none ;
+
     }
